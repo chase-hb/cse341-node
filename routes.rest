@@ -1,5 +1,8 @@
 // LOCALHOST
 ###
+// API Docs
+GET http://localhost:8080/api-docs/
+###
 GET http://localhost:8080/contacts/
 ###
 GET http://localhost:8080/contacts/63ba4aa7de71fc903c458f83
@@ -46,6 +49,9 @@ DELETE http://localhost:8080/contacts/640038222f21ced8da548fb7
 
 // PRODUCTION Deploy
 ###
+// API Docs
+GET https://chase-cse341.onrender.com/api-docs/
+###
 GET https://chase-cse341.onrender.com/contacts/
 ###
 GET https://chase-cse341.onrender.com/contacts/63ba4aa7de71fc903c458f83
@@ -70,7 +76,7 @@ content-type: application/json
 
 ###
 // Update Contact
-PUT https://chase-cse341.onrender.com/contacts/64003acf64a12501cbbc2fc1
+PUT https://chase-cse341.onrender.com/contacts/640041c76aee23b65f2c425d
 content-type: application/json
 
 {
@@ -84,4 +90,4 @@ content-type: application/json
 ###
 //Delete Contact
 
-DELETE https://chase-cse341.onrender.com/contacts/640038222f21ced8da548fb7
+DELETE https://chase-cse341.onrender.com/contacts/640041c76aee23b65f2c425d
